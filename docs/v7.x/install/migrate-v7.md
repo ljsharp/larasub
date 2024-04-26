@@ -5,7 +5,7 @@
 In your composer version, require `v7.0` version.
 
 ```json
-"ljsharp/laravel-subby": "^v7.0",
+"ljsharp/larasub": "^v7.0",
 ```
 
 ## Config
@@ -18,7 +18,7 @@ Changed `plan_combinations` to `plan_combination` in models:
     // Models
     'models' => [
         ...
-        'plan_combination' => \Ljsharp\Subby\Models\PlanCombination::class,
+        'plan_combination' => \Ljsharp\LaraSub\Models\PlanCombination::class,
     ...
     ]
 ```

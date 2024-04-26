@@ -1,8 +1,8 @@
 <?php
 
-namespace Ljsharp\Subby\Tests\Unit;
+namespace Ljsharp\LaraSub\Tests\Unit;
 
-use Ljsharp\Subby\Tests\TestCase;
+use Ljsharp\LaraSub\Tests\TestCase;
 
 class PlanCombinationTest extends TestCase
 {

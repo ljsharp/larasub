@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Ljsharp\Subby\Models;
+namespace Ljsharp\LaraSub\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Validation\Rule;
-use Ljsharp\Subby\Traits\BelongsToPlan;
-use Ljsharp\Subby\Traits\HasResetDate;
+use Ljsharp\LaraSub\Traits\BelongsToPlan;
+use Ljsharp\LaraSub\Traits\HasResetDate;
 
 class PlanFeature extends Model
 {

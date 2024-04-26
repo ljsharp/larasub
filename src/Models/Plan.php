@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace Ljsharp\Subby\Models;
+namespace Ljsharp\LaraSub\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\SoftDeletes;
-use Ljsharp\Subby\Exceptions\DuplicateException;
-use Ljsharp\Subby\Traits\HasFeatures;
-use Ljsharp\Subby\Traits\HasGracePeriod;
-use Ljsharp\Subby\Traits\HasPricing;
-use Ljsharp\Subby\Traits\HasSubscriptionPeriod;
-use Ljsharp\Subby\Traits\HasTrialPeriod;
-use Ljsharp\Subby\Traits\MorphsSchedules;
+use Ljsharp\LaraSub\Exceptions\DuplicateException;
+use Ljsharp\LaraSub\Traits\HasFeatures;
+use Ljsharp\LaraSub\Traits\HasGracePeriod;
+use Ljsharp\LaraSub\Traits\HasPricing;
+use Ljsharp\LaraSub\Traits\HasSubscriptionPeriod;
+use Ljsharp\LaraSub\Traits\HasTrialPeriod;
+use Ljsharp\LaraSub\Traits\MorphsSchedules;
 
 /**
  * Class Plan.

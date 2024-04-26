@@ -5,7 +5,7 @@
 In your composer version, require `v6.0` version.
 
 ```json
-"ljsharp/laravel-subby": "^v6.0",
+"ljsharp/larasub": "^v6.0",
 ```
 
 ## Config
@@ -23,7 +23,7 @@ Added `plan_combinations` under `tables` and models:
     // Models
     'models' => [
         ...
-        'plan_combinations' => \Ljsharp\Subby\Models\PlanCombination::class,
+        'plan_combinations' => \Ljsharp\LaraSub\Models\PlanCombination::class,
     ...
     ]
 ```
@@ -33,7 +33,7 @@ Added `payment_methods`, `'services'` now look should like this:
 ```php 
 'services' => [
     'payment_methods' => [
-        'free' => \Ljsharp\Subby\Services\PaymentMethods\Free::class
+        'free' => \Ljsharp\LaraSub\Services\PaymentMethods\Free::class
     ]
 ]
 ```
@@ -45,7 +45,7 @@ In `'services'`:
 ```php 
 'services' => [
     'schedule' => [
-        'default' => \Ljsharp\Subby\Services\ScheduleService::class
+        'default' => \Ljsharp\LaraSub\Services\ScheduleService::class
     ]
 ]
 ```

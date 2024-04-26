@@ -1,6 +1,6 @@
-# Laravel Subby
+# Laravel LaraSub
 
-**Laravel Subby** is a flexible plans and subscription management system for Laravel. Originally forked
+**Laravel LaraSub** is a flexible plans and subscription management system for Laravel. Originally forked
 from [rinvex/laravel-subscriptions](https://github.com/rinvex/laravel-subscriptions).
 
 ## What it does
@@ -29,7 +29,7 @@ The way this package is made:
 
 ## Changelog
 
-Refer to the [Releases](https://github.com/ljsharp/laravel-subby/releases) for a changelog of the project.
+Refer to the [Releases](https://github.com/ljsharp/larasub/releases) for a changelog of the project.
 
 ## License
 

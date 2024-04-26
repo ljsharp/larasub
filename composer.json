@@ -1,6 +1,6 @@
 {
-    "name": "ljsharp/laravel-subby",
-    "description": "Laravel Subby is a flexible plans and subscription management system for Laravel.",
+    "name": "ljsharp/larasub",
+    "description": "Laravel LaraSub is a flexible plans and subscription management system for Laravel.",
     "type": "library",
     "keywords": [
         "plan",
@@ -13,9 +13,9 @@
     ],
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/ljsharp/laravel-subby/issues",
-        "source": "https://github.com/ljsharp/laravel-subby",
-        "docs": "https://github.com/ljsharp/laravel-subby/blob/master/README.md"
+        "issues": "https://github.com/ljsharp/larasub/issues",
+        "source": "https://github.com/ljsharp/larasub",
+        "docs": "https://github.com/ljsharp/larasub/blob/master/README.md"
     },
     "authors": [
         {
@@ -36,13 +36,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Ljsharp\\Subby\\": "src"
+            "Ljsharp\\LaraSub\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Ljsharp\\Subby\\Tests\\": "tests",
-            "Ljsharp\\Subby\\Tests\\Database\\Factories\\": "tests/Database/Factories"
+            "Ljsharp\\LaraSub\\Tests\\": "tests",
+            "Ljsharp\\LaraSub\\Tests\\Database\\Factories\\": "tests/Database/Factories"
         }
     },
     "scripts": {
@@ -56,7 +56,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Ljsharp\\Subby\\SubbyServiceProvider"
+                "Ljsharp\\LaraSub\\LaraSubServiceProvider"
             ]
         }
     },

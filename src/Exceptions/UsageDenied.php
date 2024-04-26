@@ -1,8 +1,8 @@
 <?php
 
-namespace Ljsharp\Subby\Exceptions;
+namespace Ljsharp\LaraSub\Exceptions;
 
-class UsageDenied extends LaravelSubbyException
+class UsageDenied extends LaravelLaraSubException
 {
     public function __construct($featureTag = '')
     {

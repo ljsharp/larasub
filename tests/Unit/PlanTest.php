@@ -1,9 +1,9 @@
 <?php
 
-namespace Ljsharp\Subby\Tests\Unit;
+namespace Ljsharp\LaraSub\Tests\Unit;
 
-use Ljsharp\Subby\Models\Plan;
-use Ljsharp\Subby\Tests\TestCase;
+use Ljsharp\LaraSub\Models\Plan;
+use Ljsharp\LaraSub\Tests\TestCase;
 
 class PlanTest extends TestCase
 {
@@ -12,7 +12,7 @@ class PlanTest extends TestCase
      */
     public function testUnableToCreatePlanWithExistingTag()
     {
-        $this->expectException('Ljsharp\Subby\Exceptions\DuplicateException');
+        $this->expectException('Ljsharp\LaraSub\Exceptions\DuplicateException');
         Plan::create([
             'tag' => 'basic',
             'name' => 'New Basic Plan',

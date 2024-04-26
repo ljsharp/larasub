@@ -1,8 +1,8 @@
-<img src="https://repository-images.githubusercontent.com/312531331/83fd5e80-9ec8-11eb-9b6a-210d761a536e" alt="Social Card of Laravel Subby">
+<img src="https://repository-images.githubusercontent.com/312531331/83fd5e80-9ec8-11eb-9b6a-210d761a536e" alt="Social Card of Laravel LaraSub">
 
-# Laravel Subby
+# Laravel LaraSub
 
-**Laravel Subby** is a flexible plans and subscription management system for Laravel. You can also schedule plan
+**Laravel LaraSub** is a flexible plans and subscription management system for Laravel. You can also schedule plan
 changes.
 
 Originally forked from [rinvex/laravel-subscriptions](https://github.com/rinvex/laravel-subscriptions).
@@ -14,7 +14,7 @@ Originally forked from [rinvex/laravel-subscriptions](https://github.com/rinvex/
 
 Click on each version to read documentation.
 
-| Laravel | Laravel Subby                                  |
+| Laravel | Laravel LaraSub                                  |
 |:--------|:-----------------------------------------------|
 | 10.x    | [v7.x](/v7.x/)                                 |
 | 9.x     | [v6.x](/v6.x/), [v7.x](/v7.x/)                 |
@@ -24,7 +24,7 @@ Click on each version to read documentation.
 
 ## Changelog
 
-Refer to the [Releases](https://github.com/ljsharp/laravel-subby/releases) for a changelog of the project.
+Refer to the [Releases](https://github.com/ljsharp/larasub/releases) for a changelog of the project.
 
 ## License
 

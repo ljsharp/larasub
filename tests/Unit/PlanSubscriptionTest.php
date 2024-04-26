@@ -1,12 +1,12 @@
 <?php
 
-namespace Ljsharp\Subby\Tests\Unit;
+namespace Ljsharp\LaraSub\Tests\Unit;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\QueryException;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Config;
-use Ljsharp\Subby\Tests\TestCase;
+use Ljsharp\LaraSub\Tests\TestCase;
 
 class PlanSubscriptionTest extends TestCase
 {
@@ -17,7 +17,7 @@ class PlanSubscriptionTest extends TestCase
      */
     public function testUnableToCreatePlanSubscriptionWithExistingTag()
     {
-        $this->expectException('Ljsharp\Subby\Exceptions\DuplicateException');
+        $this->expectException('Ljsharp\LaraSub\Exceptions\DuplicateException');
         $this->testUser->newSubscription('main', $this->testPlanBasic, 'Test');
     }
 
@@ -126,7 +126,7 @@ class PlanSubscriptionTest extends TestCase
      */
     public function testNonExistingSubscriptionException()
     {
-        $this->expectException('Ljsharp\Subby\Exceptions\InvalidPlanSubscription');
+        $this->expectException('Ljsharp\LaraSub\Exceptions\InvalidPlanSubscription');
         $this->testUser->subscription('secondary');
     }
 

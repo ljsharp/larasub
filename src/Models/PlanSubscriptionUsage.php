@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Ljsharp\Subby\Models;
+namespace Ljsharp\LaraSub\Models;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Builder;

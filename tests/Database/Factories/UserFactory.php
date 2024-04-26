@@ -1,10 +1,10 @@
 <?php
 
-namespace Ljsharp\Subby\Tests\Database\Factories;
+namespace Ljsharp\LaraSub\Tests\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Str;
-use Ljsharp\Subby\Tests\Models\User;
+use Ljsharp\LaraSub\Tests\Models\User;
 
 class UserFactory extends Factory
 {

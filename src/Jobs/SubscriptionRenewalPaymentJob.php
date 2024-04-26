@@ -1,6 +1,6 @@
 <?php
 
-namespace Ljsharp\Subby\Jobs;
+namespace Ljsharp\LaraSub\Jobs;
 
 use http\Exception\InvalidArgumentException;
 use Illuminate\Bus\Queueable;
@@ -9,7 +9,7 @@ use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\Middleware\WithoutOverlapping;
 use Illuminate\Queue\SerializesModels;
-use Ljsharp\Subby\Models\PlanSubscription;
+use Ljsharp\LaraSub\Models\PlanSubscription;
 
 class SubscriptionRenewalPaymentJob implements ShouldQueue
 {

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Ljsharp\Subby\Tests\Services\PaymentMethods;
+namespace Ljsharp\LaraSub\Tests\Services\PaymentMethods;
 
-use Ljsharp\Subby\Contracts\PaymentMethodService;
-use Ljsharp\Subby\Traits\IsPaymentMethod;
+use Ljsharp\LaraSub\Contracts\PaymentMethodService;
+use Ljsharp\LaraSub\Traits\IsPaymentMethod;
 
 class SucceededPaymentMethod implements PaymentMethodService
 {

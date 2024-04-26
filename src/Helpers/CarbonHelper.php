@@ -1,6 +1,6 @@
 <?php
 
-namespace Ljsharp\Subby\Helpers;
+namespace Ljsharp\LaraSub\Helpers;
 
 class CarbonHelper
 {

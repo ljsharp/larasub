@@ -1,9 +1,9 @@
 <?php
 
-namespace Ljsharp\Subby\Traits;
+namespace Ljsharp\LaraSub\Traits;
 
-use Ljsharp\Subby\Helpers\CarbonHelper;
-use Ljsharp\Subby\Services\Period;
+use Ljsharp\LaraSub\Helpers\CarbonHelper;
+use Ljsharp\LaraSub\Services\Period;
 
 trait HasGracePeriod
 {
@@ -13,7 +13,7 @@ trait HasGracePeriod
      * @return int
      * @throws \Exception
      */
-    public function getGraceTotalDurationIn(string $interval) :int
+    public function getGraceTotalDurationIn(string $interval): int
     {
         $gracePeriod = new Period($this->grace_interval, $this->grace_period);
 

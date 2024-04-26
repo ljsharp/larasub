@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Ljsharp\Subby\Services;
+namespace Ljsharp\LaraSub\Services;
 
 use Carbon\Carbon;
-use Ljsharp\Subby\Helpers\CarbonHelper;
+use Ljsharp\LaraSub\Helpers\CarbonHelper;
 
 class Period
 {

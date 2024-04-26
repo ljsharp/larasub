@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Ljsharp\Subby\Traits;
+namespace Ljsharp\LaraSub\Traits;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Relations\HasMany;
-use Ljsharp\Subby\Models\Plan;
-use Ljsharp\Subby\Models\PlanCombination;
+use Ljsharp\LaraSub\Models\Plan;
+use Ljsharp\LaraSub\Models\PlanCombination;
 
 /**
  * Trait HasSchedules.
@@ -46,7 +46,7 @@ trait HasSchedules
      *
      * @param Plan|PlanCombination $planCombination Plan or PlanCombination that will be the new one
      *
-     * @return HasSchedules|\Ljsharp\Subby\Models\PlanSubscription
+     * @return HasSchedules|\Ljsharp\LaraSub\Models\PlanSubscription
      */
     public function toPlan(Plan|PlanCombination $planCombination): self
     {

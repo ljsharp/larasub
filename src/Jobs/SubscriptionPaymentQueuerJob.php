@@ -1,6 +1,6 @@
 <?php
 
-namespace Ljsharp\Subby\Jobs;
+namespace Ljsharp\LaraSub\Jobs;
 
 use Carbon\Carbon;
 use Illuminate\Bus\Queueable;
@@ -8,9 +8,9 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
-use Ljsharp\Subby\Models\PlanSubscription;
-use Ljsharp\Subby\Models\PlanSubscriptionSchedule;
-use Ljsharp\Subby\Services\PendingPaymentCollector;
+use Ljsharp\LaraSub\Models\PlanSubscription;
+use Ljsharp\LaraSub\Models\PlanSubscriptionSchedule;
+use Ljsharp\LaraSub\Services\PendingPaymentCollector;
 
 class SubscriptionPaymentQueuerJob implements ShouldQueue
 {

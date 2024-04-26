@@ -1,7 +1,7 @@
 <?php
 
-namespace Ljsharp\Subby\Exceptions;
+namespace Ljsharp\LaraSub\Exceptions;
 
-class DuplicateException extends LaravelSubbyException
+class DuplicateException extends LaravelLaraSubException
 {
 }

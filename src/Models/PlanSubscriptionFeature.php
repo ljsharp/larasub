@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Ljsharp\Subby\Models;
+namespace Ljsharp\LaraSub\Models;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Validation\Rule;
 use InvalidArgumentException;
-use Ljsharp\Subby\Traits\HasResetDate;
+use Ljsharp\LaraSub\Traits\HasResetDate;
 
 /**
  * Class PlanSubscriptionFeature.

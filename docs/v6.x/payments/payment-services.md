@@ -10,7 +10,7 @@ A payment service is a class that processes the payment defined in the subscript
 
 ### Create the service
 
-Create a new laravel class in your project and implement `Ljsharp\Subby\Contracts\PaymentMethodService`. Looking at
+Create a new laravel class in your project and implement `Ljsharp\LaraSub\Contracts\PaymentMethodService`. Looking at
 the `Free`
 service would be a good starting point.
 
@@ -19,9 +19,9 @@ service would be a good starting point.
 
 declare(strict_types=1);
 
-namespace Ljsharp\Subby\Services\PaymentMethods;
+namespace Ljsharp\LaraSub\Services\PaymentMethods;
 
-use Ljsharp\Subby\Contracts\PaymentMethodService;
+use Ljsharp\LaraSub\Contracts\PaymentMethodService;
 
 class Free implements PaymentMethodService
 {
@@ -48,9 +48,9 @@ declare(strict_types=1);
 
 namespace PaymentMethods;
 
-use Ljsharp\Subby\Contracts\PaymentMethodService;
+use Ljsharp\LaraSub\Contracts\PaymentMethodService;
 use Bank\BankPackages\YourPaymentProcessor;
-use Ljsharp\Subby\Traits\IsPaymentMethod;
+use Ljsharp\LaraSub\Traits\IsPaymentMethod;
 
 class CreditCard implements PaymentMethodService
 {
@@ -89,10 +89,10 @@ In your config file, add a name and the path of your new payment method:
 
 ```php 
 'services' => [
-        'schedule' => \Ljsharp\Subby\Services\ScheduleService::class,
-        'renewal' => \Ljsharp\Subby\Services\RenewalService::class,
+        'schedule' => \Ljsharp\LaraSub\Services\ScheduleService::class,
+        'renewal' => \Ljsharp\LaraSub\Services\RenewalService::class,
         'payment_methods' => [
-            'free' => \Ljsharp\Subby\Services\PaymentMethods\Free::class,
+            'free' => \Ljsharp\LaraSub\Services\PaymentMethods\Free::class,
             'credit_card' => \PaymentMethods\CreditCard::class,
         ]
 ]

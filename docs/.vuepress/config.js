@@ -1,6 +1,6 @@
 module.exports = {
-    title: 'Laravel Subby',
-    description: 'Laravel Subby is a flexible plans and subscription management system for Laravel.',
+    title: 'Laravel LaraSub',
+    description: 'Laravel LaraSub is a flexible plans and subscription management system for Laravel.',
 
     /**
      * Extra tags to be injected to the page HTML `<head>`
@@ -12,14 +12,14 @@ module.exports = {
         ['meta', {name: 'apple-mobile-web-app-capable', content: 'yes'}],
         ['meta', {name: 'apple-mobile-web-app-status-bar-style', content: 'black'}]
     ],
-    base: '/laravel-subby/',
+    base: '/larasub/',
     /**
      * Theme configuration, here is the default theme configuration for VuePress.
      *
      * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
      */
     themeConfig: {
-        repo: 'https://github.com/ljsharp/laravel-subby',
+        repo: 'https://github.com/ljsharp/larasub',
         editLinks: false,
         docsDir: '',
         editLinkText: '',

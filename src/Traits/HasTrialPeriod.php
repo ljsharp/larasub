@@ -1,9 +1,9 @@
 <?php
 
-namespace Ljsharp\Subby\Traits;
+namespace Ljsharp\LaraSub\Traits;
 
-use Ljsharp\Subby\Helpers\CarbonHelper;
-use Ljsharp\Subby\Services\Period;
+use Ljsharp\LaraSub\Helpers\CarbonHelper;
+use Ljsharp\LaraSub\Services\Period;
 
 trait HasTrialPeriod
 {
@@ -13,7 +13,7 @@ trait HasTrialPeriod
      * @return int
      * @throws \Exception
      */
-    public function getTrialTotalDurationIn(string $interval) :int
+    public function getTrialTotalDurationIn(string $interval): int
     {
         $trialPeriod = new Period($this->trial_interval, $this->trial_period);
 

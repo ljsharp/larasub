@@ -1,8 +1,8 @@
 <?php
 
-namespace Ljsharp\Subby\Exceptions;
+namespace Ljsharp\LaraSub\Exceptions;
 
-class InvalidPlanSubscription extends LaravelSubbyException
+class InvalidPlanSubscription extends LaravelLaraSubException
 {
     public function __construct($subscriptionTag = '')
     {

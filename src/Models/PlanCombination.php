@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Ljsharp\Subby\Models;
+namespace Ljsharp\LaraSub\Models;
 
 use Illuminate\Contracts\Validation\Rule;
 use Illuminate\Database\Eloquent\Model;
-use Ljsharp\Subby\Traits\BelongsToPlan;
-use Ljsharp\Subby\Traits\MorphsSchedules;
+use Ljsharp\LaraSub\Traits\BelongsToPlan;
+use Ljsharp\LaraSub\Traits\MorphsSchedules;
 
 /**
  * Class Plan Combination.

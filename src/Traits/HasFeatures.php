@@ -1,6 +1,6 @@
 <?php
 
-namespace Ljsharp\Subby\Traits;
+namespace Ljsharp\LaraSub\Traits;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;

@@ -18,18 +18,18 @@ return [
 
     // Models
     'models' => [
-        'plan' => Ljsharp\Subby\Models\Plan::class,
-        'plan_combination' => Ljsharp\Subby\Models\PlanCombination::class,
-        'plan_feature' => Ljsharp\Subby\Models\PlanFeature::class,
-        'plan_subscription' => Ljsharp\Subby\Models\PlanSubscription::class,
-        'plan_subscription_feature' => Ljsharp\Subby\Models\PlanSubscriptionFeature::class,
-        'plan_subscription_schedule' => Ljsharp\Subby\Models\PlanSubscriptionSchedule::class,
-        'plan_subscription_usage' => Ljsharp\Subby\Models\PlanSubscriptionUsage::class,
+        'plan' => Ljsharp\LaraSub\Models\Plan::class,
+        'plan_combination' => Ljsharp\LaraSub\Models\PlanCombination::class,
+        'plan_feature' => Ljsharp\LaraSub\Models\PlanFeature::class,
+        'plan_subscription' => Ljsharp\LaraSub\Models\PlanSubscription::class,
+        'plan_subscription_feature' => Ljsharp\LaraSub\Models\PlanSubscriptionFeature::class,
+        'plan_subscription_schedule' => Ljsharp\LaraSub\Models\PlanSubscriptionSchedule::class,
+        'plan_subscription_usage' => Ljsharp\LaraSub\Models\PlanSubscriptionUsage::class,
     ],
 
     'services' => [
         'payment_methods' => [
-            'free' => Ljsharp\Subby\Services\PaymentMethods\Free::class,
+            'free' => Ljsharp\LaraSub\Services\PaymentMethods\Free::class,
         ],
     ],
 ];

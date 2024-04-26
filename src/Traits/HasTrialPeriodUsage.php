@@ -1,10 +1,10 @@
 <?php
 
-namespace Ljsharp\Subby\Traits;
+namespace Ljsharp\LaraSub\Traits;
 
 use Illuminate\Support\Carbon;
-use Ljsharp\Subby\Helpers\CarbonHelper;
-use Ljsharp\Subby\Services\Period;
+use Ljsharp\LaraSub\Helpers\CarbonHelper;
+use Ljsharp\LaraSub\Services\Period;
 
 trait HasTrialPeriodUsage
 {

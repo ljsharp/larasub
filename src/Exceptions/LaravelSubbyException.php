@@ -1,7 +1,7 @@
 <?php
 
-namespace Ljsharp\Subby\Exceptions;
+namespace Ljsharp\LaraSub\Exceptions;
 
-abstract class LaravelSubbyException extends \Exception
+abstract class LaravelLaraSubException extends \Exception
 {
 }

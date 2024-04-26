@@ -1,6 +1,6 @@
 <?php
 
-namespace Ljsharp\Subby\Models;
+namespace Ljsharp\LaraSub\Models;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;

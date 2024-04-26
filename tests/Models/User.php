@@ -1,9 +1,9 @@
 <?php
 
-namespace Ljsharp\Subby\Tests\Models;
+namespace Ljsharp\LaraSub\Tests\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Ljsharp\Subby\Traits\HasSubscriptions;
+use Ljsharp\LaraSub\Traits\HasSubscriptions;
 
 class User extends Model
 {

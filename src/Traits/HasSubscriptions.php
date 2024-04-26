@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace Ljsharp\Subby\Traits;
+namespace Ljsharp\LaraSub\Traits;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 use InvalidArgumentException;
-use Ljsharp\Subby\Exceptions\DuplicateException;
-use Ljsharp\Subby\Exceptions\InvalidPlanSubscription;
-use Ljsharp\Subby\Models\Plan;
-use Ljsharp\Subby\Models\PlanCombination;
-use Ljsharp\Subby\Models\PlanSubscription;
-use Ljsharp\Subby\Services\SubscriptionPeriod;
+use Ljsharp\LaraSub\Exceptions\DuplicateException;
+use Ljsharp\LaraSub\Exceptions\InvalidPlanSubscription;
+use Ljsharp\LaraSub\Models\Plan;
+use Ljsharp\LaraSub\Models\PlanCombination;
+use Ljsharp\LaraSub\Models\PlanSubscription;
+use Ljsharp\LaraSub\Services\SubscriptionPeriod;
 
 trait HasSubscriptions
 {

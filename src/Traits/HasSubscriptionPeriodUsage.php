@@ -1,9 +1,9 @@
 <?php
 
-namespace Ljsharp\Subby\Traits;
+namespace Ljsharp\LaraSub\Traits;
 
 use Illuminate\Support\Carbon;
-use Ljsharp\Subby\Helpers\CarbonHelper;
+use Ljsharp\LaraSub\Helpers\CarbonHelper;
 
 trait HasSubscriptionPeriodUsage
 {

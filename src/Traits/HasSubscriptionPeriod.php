@@ -1,9 +1,9 @@
 <?php
 
-namespace Ljsharp\Subby\Traits;
+namespace Ljsharp\LaraSub\Traits;
 
-use Ljsharp\Subby\Helpers\CarbonHelper;
-use Ljsharp\Subby\Services\Period;
+use Ljsharp\LaraSub\Helpers\CarbonHelper;
+use Ljsharp\LaraSub\Services\Period;
 
 trait HasSubscriptionPeriod
 {
@@ -13,7 +13,7 @@ trait HasSubscriptionPeriod
      * @return int
      * @throws \Exception
      */
-    public function getSubscriptionTotalDurationIn(string $interval) :int
+    public function getSubscriptionTotalDurationIn(string $interval): int
     {
         $subscriptionPeriod = new Period($this->invoice_interval, $this->invoice_period);
 

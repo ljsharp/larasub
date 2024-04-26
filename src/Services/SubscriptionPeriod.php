@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Ljsharp\Subby\Services;
+namespace Ljsharp\LaraSub\Services;
 
 use Carbon\Carbon;
-use Ljsharp\Subby\Models\Plan;
-use Ljsharp\Subby\Models\PlanCombination;
+use Ljsharp\LaraSub\Models\Plan;
+use Ljsharp\LaraSub\Models\PlanCombination;
 
 /**
  * Class SubscriptionPeriod.

@@ -1,10 +1,10 @@
 <?php
 
-namespace Ljsharp\Subby\Tests\Unit;
+namespace Ljsharp\LaraSub\Tests\Unit;
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use Ljsharp\Subby\Models\PlanSubscriptionFeature;
-use Ljsharp\Subby\Tests\TestCase;
+use Ljsharp\LaraSub\Models\PlanSubscriptionFeature;
+use Ljsharp\LaraSub\Tests\TestCase;
 
 class PlanSubscriptionFeatureTest extends TestCase
 {

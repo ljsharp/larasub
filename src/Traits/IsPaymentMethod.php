@@ -1,9 +1,9 @@
 <?php
 
-namespace Ljsharp\Subby\Traits;
+namespace Ljsharp\LaraSub\Traits;
 
-use Ljsharp\Subby\Models\PlanSubscription;
-use Ljsharp\Subby\Models\PlanSubscriptionSchedule;
+use Ljsharp\LaraSub\Models\PlanSubscription;
+use Ljsharp\LaraSub\Models\PlanSubscriptionSchedule;
 
 trait IsPaymentMethod
 {

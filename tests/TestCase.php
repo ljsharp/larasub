@@ -1,12 +1,12 @@
 <?php
 
-namespace Ljsharp\Subby\Tests;
+namespace Ljsharp\LaraSub\Tests;
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use Ljsharp\Subby\Models\Plan;
-use Ljsharp\Subby\Models\PlanFeature;
-use Ljsharp\Subby\SubbyServiceProvider;
-use Ljsharp\Subby\Tests\Database\Factories\UserFactory;
+use Ljsharp\LaraSub\Models\Plan;
+use Ljsharp\LaraSub\Models\PlanFeature;
+use Ljsharp\LaraSub\LaraSubServiceProvider;
+use Ljsharp\LaraSub\Tests\Database\Factories\UserFactory;
 
 class TestCase extends \Orchestra\Testbench\TestCase
 {
@@ -47,12 +47,12 @@ class TestCase extends \Orchestra\Testbench\TestCase
             // Models
             'models' => [
                 'plan' => Plan::class,
-                'plan_combination' => \Ljsharp\Subby\Models\PlanCombination::class,
+                'plan_combination' => \Ljsharp\LaraSub\Models\PlanCombination::class,
                 'plan_feature' => PlanFeature::class,
-                'plan_subscription' => \Ljsharp\Subby\Models\PlanSubscription::class,
-                'plan_subscription_feature' => \Ljsharp\Subby\Models\PlanSubscriptionFeature::class,
-                'plan_subscription_schedule' => \Ljsharp\Subby\Models\PlanSubscriptionSchedule::class,
-                'plan_subscription_usage' => \Ljsharp\Subby\Models\PlanSubscriptionUsage::class,
+                'plan_subscription' => \Ljsharp\LaraSub\Models\PlanSubscription::class,
+                'plan_subscription_feature' => \Ljsharp\LaraSub\Models\PlanSubscriptionFeature::class,
+                'plan_subscription_schedule' => \Ljsharp\LaraSub\Models\PlanSubscriptionSchedule::class,
+                'plan_subscription_usage' => \Ljsharp\LaraSub\Models\PlanSubscriptionUsage::class,
             ],
             'services' => [
                 'payment_methods' => [
@@ -80,7 +80,7 @@ class TestCase extends \Orchestra\Testbench\TestCase
     protected function getPackageProviders($app)
     {
         return [
-            SubbyServiceProvider::class,
+            LaraSubServiceProvider::class,
         ];
     }
 

@@ -20,7 +20,7 @@ without release, so only one job per subscription can be active.
 Your task schedule is defined in the `app/Console/Kernel.php` file's schedule method.
 
 ```php
-use \Ljsharp\Subby\Jobs\SubscriptionPaymentQueuerJob;
+use \Ljsharp\LaraSub\Jobs\SubscriptionPaymentQueuerJob;
 
 $schedule->job(new SubscriptionPaymentQueuerJob())->everyFiveMinutes();
 ```

@@ -75,10 +75,10 @@ the process and flag it as failed. If no exceptions are raised, it means payment
 
 declare(strict_types=1);
 
-namespace Ljsharp\Subby\Services;
+namespace Ljsharp\LaraSub\Services;
 
-use Ljsharp\Subby\Contracts\PlanSubscriptionScheduleService;
-use Ljsharp\Subby\Models\PlanSubscriptionSchedule;
+use Ljsharp\LaraSub\Contracts\PlanSubscriptionScheduleService;
+use Ljsharp\LaraSub\Models\PlanSubscriptionSchedule;
 use function app;
 
 class ScheduleService implements PlanSubscriptionScheduleService

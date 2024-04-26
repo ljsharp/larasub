@@ -1,6 +1,6 @@
 <?php
 
-namespace Ljsharp\Subby\Contracts;
+namespace Ljsharp\LaraSub\Contracts;
 
 interface PaymentMethodService
 {

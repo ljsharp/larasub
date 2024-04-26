@@ -1,6 +1,6 @@
 <?php
 
-namespace Ljsharp\Subby\Traits;
+namespace Ljsharp\LaraSub\Traits;
 
 trait MorphsSchedules
 {

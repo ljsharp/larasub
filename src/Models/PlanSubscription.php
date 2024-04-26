@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Ljsharp\Subby\Models;
+namespace Ljsharp\LaraSub\Models;
 
 use BadMethodCallException;
 use Carbon\Carbon;
@@ -12,16 +12,16 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Validation\Rule;
-use Ljsharp\Subby\Exceptions\UsageDenied;
-use Ljsharp\Subby\Services\Period;
-use Ljsharp\Subby\Traits\BelongsToPlan;
-use Ljsharp\Subby\Traits\HasFeatures;
-use Ljsharp\Subby\Traits\HasGracePeriod;
-use Ljsharp\Subby\Traits\HasGracePeriodUsage;
-use Ljsharp\Subby\Traits\HasPricing;
-use Ljsharp\Subby\Traits\HasSchedules;
-use Ljsharp\Subby\Traits\HasSubscriptionPeriodUsage;
-use Ljsharp\Subby\Traits\HasTrialPeriodUsage;
+use Ljsharp\LaraSub\Exceptions\UsageDenied;
+use Ljsharp\LaraSub\Services\Period;
+use Ljsharp\LaraSub\Traits\BelongsToPlan;
+use Ljsharp\LaraSub\Traits\HasFeatures;
+use Ljsharp\LaraSub\Traits\HasGracePeriod;
+use Ljsharp\LaraSub\Traits\HasGracePeriodUsage;
+use Ljsharp\LaraSub\Traits\HasPricing;
+use Ljsharp\LaraSub\Traits\HasSchedules;
+use Ljsharp\LaraSub\Traits\HasSubscriptionPeriodUsage;
+use Ljsharp\LaraSub\Traits\HasTrialPeriodUsage;
 use LogicException;
 use UnexpectedValueException;
 

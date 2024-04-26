@@ -1,11 +1,11 @@
 # Models
 
-**Subby** uses 5 models:
+**LaraSub** uses 5 models:
 
 ```php
-Ljsharp\Subby\Models\Plan;
-Ljsharp\Subby\Models\PlanFeature;
-Ljsharp\Subby\Models\PlanSubscription;
-Ljsharp\Subby\Models\PlanSubscriptionFeature;
-Ljsharp\Subby\Models\PlanSubscriptionUsage;
+Ljsharp\LaraSub\Models\Plan;
+Ljsharp\LaraSub\Models\PlanFeature;
+Ljsharp\LaraSub\Models\PlanSubscription;
+Ljsharp\LaraSub\Models\PlanSubscriptionFeature;
+Ljsharp\LaraSub\Models\PlanSubscriptionUsage;
 ```

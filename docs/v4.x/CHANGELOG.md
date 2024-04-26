@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to `laravel-subby` will be documented in this file.
+All notable changes to `larasub` will be documented in this file.
 
 ## 4.0.2
 

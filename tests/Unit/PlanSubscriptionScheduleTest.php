@@ -1,11 +1,11 @@
 <?php
 
-namespace Ljsharp\Subby\Tests\Unit;
+namespace Ljsharp\LaraSub\Tests\Unit;
 
 use Carbon\Carbon;
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use Ljsharp\Subby\Models\Plan;
-use Ljsharp\Subby\Tests\TestCase;
+use Ljsharp\LaraSub\Models\Plan;
+use Ljsharp\LaraSub\Tests\TestCase;
 
 class PlanSubscriptionScheduleTest extends TestCase
 {
@@ -52,7 +52,7 @@ class PlanSubscriptionScheduleTest extends TestCase
     public function testScheduleCreationWithWrongPlan()
     {
         $date = Carbon::now()->add(5, 'day');
-        $this->expectExceptionMessage('Argument #1 ($planCombination) must be of type Ljsharp\Subby\Models\Plan|Ljsharp\Subby\Models\PlanCombination');
+        $this->expectExceptionMessage('Argument #1 ($planCombination) must be of type Ljsharp\LaraSub\Models\Plan|Ljsharp\LaraSub\Models\PlanCombination');
         $this->testUser->subscription('main')->toPlan('test')->onDate($date)->setSchedule();
     }
 

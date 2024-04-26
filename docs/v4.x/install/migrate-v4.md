@@ -5,7 +5,7 @@
 In your composer version, require v4.
 
 ```json
-"ljsharp/laravel-subby": "^4.0",
+"ljsharp/larasub": "^4.0",
 ```
 
 ## Migrations
@@ -33,7 +33,7 @@ been added.
     // Models
     'models' => [
         ...
-        'plan_subscription_feature' => \Ljsharp\Subby\Models\PlanSubscriptionFeature::class,
+        'plan_subscription_feature' => \Ljsharp\LaraSub\Models\PlanSubscriptionFeature::class,
         ...
     ],
 ```

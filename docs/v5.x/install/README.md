@@ -3,7 +3,7 @@
 Install the package via composer:
 
 ```shell
-composer require ljsharp/laravel-subby
+composer require ljsharp/larasub
 ```
 
 Publish the configuration:
@@ -32,13 +32,13 @@ changes.
 
 # Attach Subscriptions to model
 
-**Laravel Subby** has been specially made for Eloquent. To add Subscription functionality to your User model just use
-the `\Ljsharp\Subby\Traits\HasSubscriptions` trait like this:
+**Laravel LaraSub** has been specially made for Eloquent. To add Subscription functionality to your User model just use
+the `\Ljsharp\LaraSub\Traits\HasSubscriptions` trait like this:
 
 ```php
 namespace App\Models;
 
-use Ljsharp\Subby\Traits\HasSubscriptions;
+use Ljsharp\LaraSub\Traits\HasSubscriptions;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
 class User extends Authenticatable

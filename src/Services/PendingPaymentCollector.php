@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Ljsharp\Subby\Services;
+namespace Ljsharp\LaraSub\Services;
 
 use Carbon\Carbon;
-use Ljsharp\Subby\Models\PlanSubscription;
-use Ljsharp\Subby\Models\PlanSubscriptionSchedule;
+use Ljsharp\LaraSub\Models\PlanSubscription;
+use Ljsharp\LaraSub\Models\PlanSubscriptionSchedule;
 
 class PendingPaymentCollector
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Ljsharp\Subby\Traits;
+namespace Ljsharp\LaraSub\Traits;
 
 use Carbon\Carbon;
-use Ljsharp\Subby\Services\Period;
+use Ljsharp\LaraSub\Services\Period;
 
 trait HasResetDate
 {

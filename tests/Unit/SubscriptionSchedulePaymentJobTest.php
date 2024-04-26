@@ -1,12 +1,12 @@
 <?php
 
-namespace Ljsharp\Subby\Tests\Unit;
+namespace Ljsharp\LaraSub\Tests\Unit;
 
 use Carbon\Carbon;
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use Ljsharp\Subby\Jobs\SubscriptionSchedulePaymentJob;
-use Ljsharp\Subby\Services\PendingPaymentCollector;
-use Ljsharp\Subby\Tests\TestCase;
+use Ljsharp\LaraSub\Jobs\SubscriptionSchedulePaymentJob;
+use Ljsharp\LaraSub\Services\PendingPaymentCollector;
+use Ljsharp\LaraSub\Tests\TestCase;
 
 class SubscriptionSchedulePaymentJobTest extends TestCase
 {

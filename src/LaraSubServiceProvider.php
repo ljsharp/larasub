@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Ljsharp\Subby;
+namespace Ljsharp\LaraSub;
 
 use Illuminate\Support\ServiceProvider;
 
-class SubbyServiceProvider extends ServiceProvider
+class LaraSubServiceProvider extends ServiceProvider
 {
     /**
      * Register the application services.
